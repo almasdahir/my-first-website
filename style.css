@@ -1,0 +1,26 @@
+body{
+    background-image: url(wp2.jpg);
+
+}
+.kk{
+    margin-left: 600px;
+    font-size: xx-large;
+    text-decoration:dotted;
+   text-shadow: 10px 10px 10px rgba(0,0,0,0.6 );
+    text-decoration-style: wavy;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:600;
+}
+
+.p{
+
+    margin-right: 400px;
+    text-shadow: 10px 10px 10px rgba(0,0,0,0.6 );
+
+}
+
+.line{
+   margin-right: 500px;
+   text-decoration: underline;
+
+}
