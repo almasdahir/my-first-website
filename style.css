@@ -1,26 +1,111 @@
-body{
-    background-image: url(wp2.jpg);
+/* Normalize CSS */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    background-color: #f770ec;
+  }
+  
+  /* Navigation */
+  header {
+    background-color: #0d066b;
+    color: #fff;
+    padding: 10px 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  /* Hero section */
+  .hero {
+    background-image: url("hero-background.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
 
-}
-.kk{
-    margin-left: 600px;
-    font-size: xx-large;
-    text-decoration:dotted;
-   text-shadow: 10px 10px 10px rgba(0,0,0,0.6 );
-    text-decoration-style: wavy;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight:600;
-}
+    align-items: center;
+  }
+  
+  .hero .content {
+    text-align: center;
+    color: #faf7f7;
+    font-size:large;
+  }
+  
+  .hero h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #0e0d0d;
 
-.p{
+  }
+  
+  .hero p {
+    font-size: 40px;
+    display: grid;
+  }
 
-    margin-right: 400px;
-    text-shadow: 10px 10px 10px rgba(0,0,0,0.6 );
-
-}
-
-.line{
-   margin-right: 500px;
-   text-decoration: underline;
-
-}
+  .hero .img-cont{
+    display: inline;
+  }
+  
+  /* About section */
+  .about {
+    background-color: #f34949;
+    padding: 50px 20px;
+  }
+  
+  .about h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .about p {
+    text-align: justify;
+    font-size: large;
+  }
+  
+  /* Gallery section */
+  .gallery {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .gallery h2 {
+    margin-bottom: 20px;
+  }
+  
+  .image-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .image-container img {
+    width: 300px;
+    margin: 0 10px;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    background-color: #f77070;
+    color: #fff;
+    padding: 10px 0;
+  }
